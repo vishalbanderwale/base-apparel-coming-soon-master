@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(./images/bg-pattern-desktop.svg);
+}
+
+.img-container {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 10rem;
+}
+
+.img1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  max-height: 80vh;
+}
+
+.img1 h1 {
+  word-wrap: break-word;
+  max-width: min-content;
+  font-size: 3rem;
+  text-transform: uppercase;
+  letter-spacing: 1.2rem;
+}
+
+h1::first-line {
+  color: pink;
+}
+
+p {
+  max-width: 25vw;
+  color: pink;
+}
+
+input {
+  padding: 0.8rem 1rem;
+  width: 25vw;
+  border-radius: 1rem;
+  border-color: pink;
+}
+
+.info h1,
+p,
+input {
+  margin-top: 2rem;
+}
